@@ -1,7 +1,7 @@
 // Check number Even or Odd
 
 
-const number = prompt('Inter a number: ');
+const number = parseInt(prompt('Inter a number: '));
 
 if(number%2===0){
 

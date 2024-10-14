@@ -1,7 +1,7 @@
 
 //check letter Vowel or Consonant
 
-let letter = prompt('Inter a letter: ');
+let letter = parseInt(prompt('Inter a letter: '));
 letter = letter.toLowerCase();
 
 if (

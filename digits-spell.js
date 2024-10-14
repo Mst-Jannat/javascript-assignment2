@@ -1,6 +1,6 @@
 //Spelling Digints
 
-const digit = prompt("Enter a digit: ");
+const digit = parseInt(prompt("Enter a digit: "));
 if (digit === "0") {
     document.getElementById("Program-3").innerHTML = `'Spelling is Zero'`;
 }
